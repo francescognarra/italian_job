@@ -1,3 +1,5 @@
+"!https://secure.travis-ci.org/lucapette/italian_job.png!":http://travis-ci.org/lucapette/italian_job
+
 The aim of this gem is to provide goodies for developers that are dealing with typical italian business problem with rails 3. Any help will be more than
 welcome.
 
