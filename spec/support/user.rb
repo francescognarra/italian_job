@@ -1,6 +1,7 @@
-class User < ActiveRecord::Base
+class User
+   include ActiveModel::Validations
 
-  attr_accessible :codice_fiscale, :partita_iva, :email
+  attr_accessor :codice_fiscale, :partita_iva, :email
 
   validates :codice_fiscale, :codice_fiscale_format => true
   validates :partita_iva, :partita_iva_format => true
