@@ -1,8 +1,9 @@
-require "italian_job"
+ENV['RAILS_ENV'] = 'test'
+require 'dummy/config/environment'
 
-require "rspec/rails/extensions"
+require 'italian_job'
 
-require "active_model"
+require 'rspec/rails/extensions'
 
 Dir[File.dirname(__FILE__) + "/support/**/*.rb"].each { |f| require f }
 
